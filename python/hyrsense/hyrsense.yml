@@ -1,0 +1,21 @@
+name: hyr-sense
+
+channels: &id1
+  - http://conda.anaconda.org/conda-forge
+  #- conda-forge
+
+dependencies: 
+  - python=3.10
+  - matplotlib-base
+  - matplotlib
+  - hvplot
+  - pyproj
+  - xarray
+  - numpy
+  - gdal
+  - rioxarray
+  - geoviews
+  - geopandas
+  - pandas
+  - pyproj
+  - h5py>= 3.9

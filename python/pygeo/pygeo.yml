@@ -1,0 +1,28 @@
+name: pygeo
+
+channels: &id1
+  - http://conda.anaconda.org/conda-forge
+  #- conda-forge
+
+dependencies: 
+  - python==3.12
+  - numpy
+  - scipy
+  - matplotlib-base
+  - matplotlib
+  - hvplot
+  - pyproj
+  - xarray
+  - numpy
+  - gdal
+  - rioxarray
+  - geoviews
+  - pandas
+  - geopandas
+  - pyproj
+  - netcdf4 
+  - h5netcdf
+  - h5py
+  - earthpy
+  - earthaccess
+  - ipykernel
