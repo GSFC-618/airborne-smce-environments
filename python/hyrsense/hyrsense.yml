@@ -9,9 +9,11 @@ dependencies:
   - matplotlib-base
   - matplotlib
   - hvplot
+  - bqplot
   - pyproj
   - xarray
   - numpy
+  - scipy
   - gdal
   - rioxarray
   - geoviews
@@ -19,3 +21,13 @@ dependencies:
   - pandas
   - pyproj
   - h5py>= 3.9
+  - zarr
+  - cartopy
+  - s3fs
+  - scikit-image
+  - ipyleaflet
+  - shapely
+  - holoviews
+  - spectral
+  - rasterio
+  - earthaccess>=0.8.2
